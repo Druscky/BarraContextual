@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="Custom Menú">
+
+    <item
+        android:id="@+id/elemento01"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Elemento 1" />
+    <item
+        android:id="@+id/elemento02"
+        android:alphabeticShortcut="b"
+        android:checkable="true"
+        android:numericShortcut="3"
+        android:title="Elemento 2" />
+    <item
+        android:id="@+id/elemento03"
+        android:title="Elemento 3" />
+    <item
+        android:id="@+id/elemento04"
+        android:title="Submenú">
+        <menu>
+            <item
+                android:id="@+id/elemento05"
+                android:title="Elemento 5" />
+        </menu>
+    </item>
+</menu>
